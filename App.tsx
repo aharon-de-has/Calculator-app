@@ -16,7 +16,7 @@ const App = () => {
       if (input.length > 0 && !lastOperator) {  
         setInput(input + value);
         setLastOperator(true);
-		setIsResultDisplay(false);
+		    setIsResultDisplay(false);
       }
 	// If we use the +- button, we will check what the last number is
     } else if (value === '+-' && !lastOperator) {
